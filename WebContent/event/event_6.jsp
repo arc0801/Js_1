@@ -22,7 +22,6 @@
 					break;
 				}
 			}
-			0.
 			/* s1[1].checked=true; */
 			/* s1[1].setAttribute("checked", true); */
 		});	//button
@@ -47,7 +46,7 @@
 </head>
 <body>
 	<div>
-		F<input title="f1" type="radio" name="sung" value="Female" checked="checked" class="sung">
+		F<input title="f1" type="radio" name="sung" value="Female" class="sung">
 		M<input title="m1" type="radio" name="sung" value="Male" class="sung">
 		<button id="btn">CLICK</button>
 	</div>
