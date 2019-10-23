@@ -22,6 +22,7 @@
 					break;
 				}
 			}
+			0.
 			/* s1[1].checked=true; */
 			/* s1[1].setAttribute("checked", true); */
 		});	//button
@@ -29,7 +30,8 @@
 		var a = document.getElementsByClassName("sung");
 		for(var i=0;i<a.length;i++){
 			a[i].addEventListener("click", function() {
-				alert(this.value);
+				/* alert(this.value); */
+				document.getElementById(this.title).style.display="block";
 			});
 		}
 	}
